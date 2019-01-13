@@ -4,32 +4,36 @@ using UnityEngine;
 
 public class MoveLArm : MonoBehaviour {
 
-    float movementSpeed = 40.0f;
+    public float movementSpeed;
 
-    // Use this for initialization
+    private Rigidbody2D rb;
+
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.A))
-         {
-             transform.position += Vector3.left * movementSpeed * Time.deltaTime;
-         }
-         if (Input.GetKey(KeyCode.D))
-         {
-             transform.position += Vector3.right * movementSpeed * Time.deltaTime;
-         }
-         if (Input.GetKey(KeyCode.W))
-         {
-             transform.position += Vector3.up * movementSpeed * Time.deltaTime;
-         }
-         if (Input.GetKey(KeyCode.S))
-         {
-             transform.position += Vector3.down * movementSpeed * Time.deltaTime;
-         }
+        {
+            rb.AddForce(Vector3.left * movementSpeed);
+            rb.velocity = Vector3.zero;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.AddForce(Vector3.right * movementSpeed);
+            rb.velocity = Vector3.zero;
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            rb.AddForce(Vector3.up * movementSpeed);
+            rb.velocity = Vector3.zero;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            rb.AddForce(Vector3.down * movementSpeed);
+            rb.velocity = Vector3.zero;
+        }
     }
 }
