@@ -20,7 +20,7 @@ public class TurtleSensor : MonoBehaviour {
     {
         if (triggered == false && (collision.name == "RArm" || collision.name == "LArm"))
         {
-            Debug.Log("Hand touching turtle!!");
+            //Debug.Log("Hand touching turtle!!");
             if (Input.GetKey(KeyCode.Space))
             {
                 GetComponent<TurtleController>().toggleFlipped();
