@@ -76,6 +76,7 @@ public class TurtleController : MonoBehaviour {
             flipped = false;
             sr.enabled = false;
             rend.material.color = Color.green;
+            gameObject.tag = "Untagged";
         }
     }
 }
