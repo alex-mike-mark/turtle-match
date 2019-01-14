@@ -4,9 +4,8 @@
 AnimatorController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: New Animator Controller
+  m_PrefabInternal: {fileID: 0}
+  m_Name: turt_back_legs
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers: []
