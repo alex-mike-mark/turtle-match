@@ -35,5 +35,17 @@ public class MoveLArm : MonoBehaviour {
             rb.AddForce(Vector3.down * movementSpeed);
             rb.velocity = Vector3.zero;
         }
+
+        Vector3 oldPosition = gameObject.transform.position;
+        Vector3 newPosition = oldPosition;
+
+        //it's Min of right,  top bounds
+        //it's a Max of left, bottom bounds.
+        newPosition.x = Mathf.Min(oldPosition.x,33);
+        newPosition.x = Mathf.Max(newPosition.x,-33);
+        newPosition.y = Mathf.Min(oldPosition.y,17);
+        newPosition.y = Mathf.Max(newPosition.y,-14);
+
+        gameObject.transform.position = newPosition;
     }
 }
