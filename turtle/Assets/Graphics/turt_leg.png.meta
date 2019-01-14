@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 1d09e60353fb8674cb50db810d2fc80f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: turt_leg_0
+    21300002: turt_leg_1
+    21300004: turt_leg_2
+    21300006: turt_leg_3
+    21300008: turt_leg_4
+    21300010: turt_leg_5
+    21300012: turt_leg_6
+    21300014: turt_leg_7
+    21300016: turt_leg_8
+    21300018: turt_leg_9
+    21300020: turt_leg_10
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: turt_leg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 68
+        height: 91
+      alignment: 9
+      pivot: {x: 0.49999994, y: 0.8531358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570bdbf36c33bab4797c64cd33a88228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 69
+        width: 76
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7610998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867d3cc3361e42b4e9e00805784ea731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 75
+        width: 97
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5165646, y: 0.7602511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575fdb4c16376364ea46b672e2cd3af7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 42
+        width: 76
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8361096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c69a1326061ce4da3855ad2af1703f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 13
+        width: 80
+        height: 156
+      alignment: 9
+      pivot: {x: 0.68726903, y: 0.8282352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6133e579b82584d8024b98fdf6f447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 10
+        width: 83
+        height: 158
+      alignment: 9
+      pivot: {x: 0.4893637, y: 0.89113134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4183f5355b4a2642834211419a92bb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 12
+        width: 96
+        height: 92
+      alignment: 9
+      pivot: {x: 0.4137993, y: 0.1402038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd6847aa853af74588d4d8fd88dba14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 7
+        width: 96
+        height: 79
+      alignment: 9
+      pivot: {x: 0.4808445, y: 0.20902559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc2ad90d2b08c94b86c2f7b52857583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 7
+        width: 100
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49080566, y: 0.16564414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8854f87b151e7e74d8f9415fe0d4a6c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_9
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 13
+        width: 85
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5000007, y: 0.16223209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea39d18f0f0990649879bb55a2951fb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turt_leg_10
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 0
+        width: 76
+        height: 126
+      alignment: 9
+      pivot: {x: 0.4879022, y: 0.1059375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3103995d47f521d4eb7171e91b2d616b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9f782a4a4b51a764c84e5fba1441d6fc
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
