@@ -7,7 +7,10 @@ public class TurtleController : MonoBehaviour {
     private float timeToChangeDirection;
     private Rigidbody2D rb;
     Renderer rend;
+    SpriteRenderer sr;
     bool flipped;
+
+    private string flippedTag= "Flipped";
 
     // Use this for initialization
     public void Start()
@@ -15,7 +18,9 @@ public class TurtleController : MonoBehaviour {
         ChangeDirection();
         rb = GetComponent<Rigidbody2D>();
         rend = GetComponent<Renderer>();
+        sr = gameObject.transform.Find("Symbol").GetComponent<SpriteRenderer>(); //hideous
         flipped = false;
+        sr.enabled = false;
     }
 
     // Update is called once per frame
@@ -54,10 +59,22 @@ public class TurtleController : MonoBehaviour {
         {
             flipped = true;
             rend.material.color = Color.white;
+            sr.enabled = true;
+
+            GameObject otherTurtle = GameObject.FindWithTag(flippedTag);
+            if(otherTurtle != null){
+                if( otherTurtle.transform.Find("Symbol").GetComponent<SpriteRenderer>().sprite == sr.sprite ){
+                    Destroy(otherTurtle);
+                    Destroy(gameObject);
+                }
+            } else {
+                gameObject.tag = flippedTag;
+            }
         }
         else
         {
             flipped = false;
+            sr.enabled = false;
             rend.material.color = Color.green;
         }
     }
